@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import { useState } from "react";
 
 function App() {
-  // const [bookInfo, setBookInfo] = useState(null);
   const [bookInfo, setBookInfo] = useState(null);
 
   const handleBookInfo = (item) => {
